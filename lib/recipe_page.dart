@@ -12,10 +12,10 @@ class RecipePage extends StatelessWidget {
           Image.network(
             'https://img.freepik.com/premium-photo/penne-pasta-carbonara-cream-sauce-with-mushroom_1339-81372.jpg?w=2000',
             width: double.infinity,
-            fit: BoxFit.cover, // Ensures the image covers the width
+            fit: BoxFit.cover, 
           ),
           Padding(
-            padding: const EdgeInsets.all(16.0), // Add padding here
+            padding: const EdgeInsets.all(16.0), 
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
